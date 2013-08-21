@@ -16,9 +16,9 @@ interface Middleware {
 	*   // do something with $env
 	*
 	*   // call the next middleware stack
-  *   $this->app->call($env);
-  *
-  *   // do something with $env
+	*   $this->app->call($env);
+	*
+	*   // do something with $env
 	* }
 	*
 	* $env has to be a variable which So it should be an instance of StdClass or

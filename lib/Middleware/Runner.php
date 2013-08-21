@@ -44,7 +44,7 @@ class Runner implements Middleware {
 				);
 			}
 			// instantiate the middleware and pass the arguments to its constructor
-   		$nextMware = $middleware->newInstanceArgs($args);
+			$nextMware = $middleware->newInstanceArgs($args);
 		}
 		return $nextMware;
 	}

@@ -30,9 +30,9 @@ class Builder implements Middleware {
 	* @param Object $env
 	* @return void
 	*/
-  public function call($env = null) {
-    $this->toApp()->call($env);
-  }
+	public function call($env = null) {
+		$this->toApp()->call($env);
+	}
 
 	/**
 	* @return array a copy of stack

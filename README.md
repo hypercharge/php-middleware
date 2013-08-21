@@ -17,7 +17,6 @@ in your project root folder create a `composer.json` file
 ```json
 {
   "require": {
-    "php": ">=5.3",
     "hypercharge/php-middleware": "*"
   }
 }

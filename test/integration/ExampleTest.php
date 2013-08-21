@@ -13,9 +13,9 @@ class ExampleTest extends \PHPUnit_Framework_TestCase {
 				,'<-- C'
 				,'<-- B'
 				,'<-- A'
-	 		),
-	 		$env->log
- 		);
+			),
+			$env->log
+		);
 		$this->assertEquals(
 				"--> A\n".
 				"--> B\n".
@@ -23,9 +23,9 @@ class ExampleTest extends \PHPUnit_Framework_TestCase {
 				"<-- C\n".
 				"<-- B\n".
 				"<-- A"
-	 		,
-	 		$env->to_string()
- 		);
+			,
+			$env->to_string()
+		);
 	}
 }
 
