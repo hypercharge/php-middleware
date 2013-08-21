@@ -1,5 +1,7 @@
 # Middleware
 
+[![Build Status](https://travis-ci.org/hypercharge/php-middleware.png?branch=master)](https://travis-ci.org/hypercharge/php-middleware)
+
 This is a generalized library for using middleware patterns within
 your PHP projects.
 
