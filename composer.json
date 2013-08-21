@@ -1,0 +1,24 @@
+{
+	"name":"hypercharge/php-middleware",
+	"description":"Generalized middleware implementation for PHP.",
+	"keywords": ["php", "middleware"],
+	"hompage":"http://hypercharge.net",
+	"license":"MIT",
+	"authors": [
+		{
+			"name": "Jan Mentzel",
+			"email": "jan@islandofwaiting.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~3.7.0"
+	},
+  "autoload": {
+    "classmap": ["lib/Middleware/"]
+    ,"files": ["lib/Middleware/commons.php"]
+  }
+}
