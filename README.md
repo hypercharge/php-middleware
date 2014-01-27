@@ -1,7 +1,5 @@
 # Middleware
 
-[![Build Status](https://travis-ci.org/hypercharge/php-middleware.png?branch=master)](https://travis-ci.org/hypercharge/php-middleware)
-
 This is a generalized library for using middleware patterns within
 your PHP projects.
 
@@ -9,7 +7,9 @@ your PHP projects.
 
 Only a subset of ruby `middleware` is implemented yet. Stay tuned to see more features ported.
 
-To get started, the best place to look is the [the user guide](https://github.com/mitchellh/middleware/blob/master/user_guide.md).
+To get started, the best place to look is the [user guide](https://github.com/mitchellh/middleware/blob/master/user_guide.md).
+
+[![Build Status](https://travis-ci.org/hypercharge/php-middleware.png?branch=master)](https://travis-ci.org/hypercharge/php-middleware)
 
 ## Installation
 
@@ -19,7 +19,7 @@ in your project root folder create a `composer.json` file
 ```json
 {
   "require": {
-    "hypercharge/php-middleware": "*"
+    "hypercharge/php-middleware": "dev-master"
   }
 }
 ````
